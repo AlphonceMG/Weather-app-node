@@ -1,0 +1,111 @@
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+img {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+
+/* Styles for the input form */
+
+form {
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    /* margin-right: 10px; */
+    width: 70%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #2F80ED;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+button[type="submit"]:hover {
+    background-color: #2564C2;
+}
+
+
+/* Styles for the weather result container */
+
+.result-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.result-container p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.result-container img {
+    max-width: 100px;
+    margin-top: 20px;
+}

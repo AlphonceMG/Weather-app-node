@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= result.city %> Weather</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">
+            <%= result.city %> Weather</h1>
+        <div class="result-container">
+            <p>The weather is currently
+                <%= result.description %>
+            </p>
+            <h2>The temperature in
+                <%= result.city %> is
+                    <%= result.temperature %> degrees Celsius</h2>
+            <img src="<%= result.icon %>" alt="Weather Icon">
+        </div>
+        <a href="/" class="btn">Go back</a>
+    </div>
+</body>
+
+</html>
